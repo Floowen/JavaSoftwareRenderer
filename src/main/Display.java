@@ -50,5 +50,9 @@ public class Display extends Canvas{
 			m_frameBuffer.getWidth(), m_frameBuffer.getHeight(), null);
 		m_bufferStrategy.show();
 	}
+
+	public Bitmap getFrameBuffer() {
+		return m_frameBuffer;
+	}
 	
 }
